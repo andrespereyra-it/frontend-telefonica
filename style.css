@@ -1,0 +1,183 @@
+/*** ALL ***/
+
+body{
+    /*Para que no tape el título*/
+    padding-top: 2rem;
+}
+
+header{
+    top: 0;
+    width: 100%;
+    /*Fija el header*/
+    position: fixed;
+    opacity: 0.8;
+}
+
+footer{
+    color: white;
+    background: #121212;
+    text-align: center;
+    padding: 1.3rem;
+    height: 4rem;
+}
+
+/*** INICIO ***/
+
+.inicio{
+    margin: 8rem;
+}
+
+.imagen{
+    /* Convierto el elemento inline (imagen) en un bloque y lo centro*/
+    display: block;
+    margin: auto;
+
+    border: 2px solid #5cbd9d;
+    box-shadow: 7px 7px 15px #5a5652; 
+}
+
+.inicio h1, .inicio h6{
+    text-align: center;
+    color: #121212;
+}
+
+/*** NAVEGACIÓN ***/
+
+nav ul{
+    list-style: none;
+    background:#121212;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 500ms;
+} 
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background:#5cbd9d;
+}
+
+/*** LOGIN ***/
+
+body .login{
+    margin-top: 5rem !important;
+}
+
+.login{
+    border: 1px solid #121212;
+    margin: 10% 40%;
+    background: #5cbd9d;
+}
+
+.login h1{
+    color: white;
+    text-align: center;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+input{
+    width: 80%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.fila{
+    /* Doy espacio entre los elementos */
+    margin: 10px;
+    text-align: center;
+}
+
+.login .fila ul li{
+    text-align: left;
+    list-style: none;
+}
+
+.login .fila ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*** TABLA ***/
+
+caption{
+    margin-top: 3rem;
+}
+
+.tabla {
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    border-collapse: collapse;
+    caption-side: top;
+    color: white;
+    background: linear-gradient(#5cbd9d, #254e40);
+}
+
+.tabla td {
+    border: solid gray 1px;
+}
+
+.cabecera{
+    background: #121212;
+    color: white;
+    font-family: Arial;
+}
+
+/*** CV ***/
+
+.container {
+    border-radius: 5px;
+    background-color: #5cbd9d;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    border: 1px solid #ccc;
+  }
+
+.col-4{
+    background: #5cbd9d;
+    padding-top: 1rem;
+    color: white;
+    font-weight: lighter;
+}
+
+.col-8{
+    background: white;
+    padding-top: 1rem;
+}
+
+.titulos{
+    text-align:center;
+    margin: 30px;
+}
+
+.cursos{
+    list-style-type: square;
+}
+
+.cursos .link{
+    color: darkblue;
+    text-decoration: none;
+}
+
+.info .link{
+    color: darkblue;
+    text-decoration: none;
+}
+
+.nombre{
+    text-align: center;
+}

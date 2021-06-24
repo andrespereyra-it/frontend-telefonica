@@ -1,0 +1,20 @@
+#coca-cola li{
+    border-left: 2px solid;
+    list-style-type: upper-alpha;
+}
+
+.coca-cola li::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #18d26e;
+    border: 2px solid #18d26e;
+}
+
+ul.coca-cola{
+    list-style-type: upper-alpha;
+}
