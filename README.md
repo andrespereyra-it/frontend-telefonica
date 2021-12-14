@@ -1,4 +1,5 @@
-# telef-nica-modulo2
-Curso Fundación Telefónica FRONT-END - Módulo 2
+# Telefonica Frontend Course
+Telefonica foundation FRONT-END course.
 
-Se utilizó para la creación de este sitio HTML, CSS, Bootstrap y JavaScript.
+# Coding
+In this repository I worked with HTML, CSS, Bootstrap and JavaScript.
